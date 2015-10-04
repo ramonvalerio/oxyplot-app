@@ -9,22 +9,17 @@ namespace OxyPlotApp.Infrastructure.Repository
     {
         public IList<Categoria> GetCategorias()
         {
-            throw new NotImplementedException();
-        }
+            var categorias = new List<Categoria>();
 
-        public IList<Variavel> GetProdutos()
-        {
-            var Apple = new Variavel { Id = Faker.NumberFaker.Number(), Nome = Faker.NameFaker.Name(), Valor = Faker.NumberFaker.Number(), Data = Faker.DateTimeFaker.DateTimeBetweenYears(1994) };
-            var Pears = new Variavel { Id = Faker.NumberFaker.Number(), Nome = Faker.NameFaker.Name(), Valor = Faker.NumberFaker.Number(), Data = Faker.DateTimeFaker.DateTimeBetweenYears(2008) };
-            var Bananas = new Variavel { Id = Faker.NumberFaker.Number(), Nome = Faker.NameFaker.Name(), Valor = Faker.NumberFaker.Number(), Data = Faker.DateTimeFaker.DateTimeBetweenYears(2014) };
+            for (int i = 0; i < 5; i++)
+            {
+                var categoria = new Categoria();
+                categoria.Id = Faker.NumberFaker.Number();
+                categoria.Nome = Faker.CompanyFaker.Name();
+                categorias.Add(categoria);
+            }
 
-            var produtos = new List<Variavel>();
-
-            produtos.Add(Apple);
-            produtos.Add(Pears);
-            produtos.Add(Bananas);
-
-            return produtos;
+            return categorias;
         }
     }
 }

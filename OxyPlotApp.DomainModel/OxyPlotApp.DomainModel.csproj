@@ -31,7 +31,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Interfaces\Repository\ICategoriaRepository.cs" />
+    <Compile Include="Interfaces\Repository\IVariavelRepository.cs" />
     <Compile Include="Interfaces\Service\ICategoriaService.cs" />
+    <Compile Include="Interfaces\Service\IVariavelService.cs" />
     <Compile Include="Model\Categoria.cs" />
     <Compile Include="Model\Grafico.cs" />
     <Compile Include="Model\Variavel.cs" />

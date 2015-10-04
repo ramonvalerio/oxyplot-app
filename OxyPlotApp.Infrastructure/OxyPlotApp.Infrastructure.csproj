@@ -49,6 +49,7 @@
     <Compile Include="OxyPlotKernel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\CategoriaRepository.cs" />
+    <Compile Include="Repository\VariavelRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OxyPlotApp.DomainModel\OxyPlotApp.DomainModel.csproj">

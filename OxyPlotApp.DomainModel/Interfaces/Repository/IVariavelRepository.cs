@@ -3,8 +3,8 @@ using OxyPlotApp.DomainModel.Model;
 
 namespace OxyPlotApp.DomainModel.Interfaces.Repository
 {
-    public interface ICategoriaRepository
+    public interface IVariavelRepository
     {
-        IList<Categoria> GetCategorias();
+        IList<Variavel> GetVariaveis();
     }
 }

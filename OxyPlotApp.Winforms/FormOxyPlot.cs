@@ -12,10 +12,12 @@ namespace OxyPlotApp.Winforms
     public partial class FormOxyPlot : Form
     {
         private readonly ICategoriaService _categoriaService;
+        private readonly IVariavelService _variavelService;
 
-        public FormOxyPlot(ICategoriaService categoriaService)
+        public FormOxyPlot(ICategoriaService categoriaService, IVariavelService variavelService)
         {
             _categoriaService = categoriaService;
+            _variavelService = variavelService;
 
             InitializeComponent();
 
@@ -106,11 +108,15 @@ namespace OxyPlotApp.Winforms
         {
             plotView1.Focus();
 
-            var categoria = new Categoria();
-            var produtos = categoria.GetVariaveis();
+            var categorias = _categoriaService.GetCategorias();
+
+            foreach (var categoria in categorias)
+            {
+                categoria.Variaveis = _variavelService.GetVariaveis();
+            }
 
             var categoriaAxis = new CategoryAxis();
-            categoriaAxis.ItemsSource = produtos;
+            categoriaAxis.ItemsSource = categorias;
             categoriaAxis.LabelField = "Nome";
 
             var linearAxis = new LinearAxis();
@@ -122,13 +128,16 @@ namespace OxyPlotApp.Winforms
             plotModel.Axes.Add(categoriaAxis);
             plotModel.Axes.Add(linearAxis);
 
-            foreach (var produto in produtos)
+            foreach (var categoria in categorias)
             {
-                var columnSeries = new ColumnSeries();
-                columnSeries.Title = produto.Data.ToString("dd/MM/yyyy");
-                columnSeries.ItemsSource = produtos;
-                columnSeries.ValueField = "Valor";
-                plotModel.Series.Add(columnSeries);
+                foreach (var variavel in categoria.Variaveis)
+                {
+                    var columnSeries = new ColumnSeries();
+                    columnSeries.Title = variavel.Data.ToString("dd/MM/yyyy");
+                    columnSeries.ItemsSource = categoria.Variaveis;
+                    columnSeries.ValueField = "Valor";
+                    plotModel.Series.Add(columnSeries);
+                }
             }
 
             plotView1.Model = plotModel;

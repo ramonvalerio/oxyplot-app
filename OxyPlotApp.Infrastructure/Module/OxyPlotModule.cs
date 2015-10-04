@@ -12,6 +12,9 @@ namespace OxyPlotApp.Infrastructure.Module
         {
             Bind<ICategoriaService>().To<CategoriaService>();
             Bind<ICategoriaRepository>().To<CategoriaRepository>();
+
+            Bind<IVariavelService>().To<VariavelService>();
+            Bind<IVariavelRepository>().To<VariavelRepository>();
         }
     }
 }
