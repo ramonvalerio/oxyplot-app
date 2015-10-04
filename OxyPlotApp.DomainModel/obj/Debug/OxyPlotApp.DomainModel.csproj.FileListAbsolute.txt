@@ -1,0 +1,5 @@
+c:\users\ramon\documents\visual studio 2015\Projects\OxyPlotApp\OxyPlotApp.DomainModel\bin\Debug\OxyPlotApp.DomainModel.dll
+c:\users\ramon\documents\visual studio 2015\Projects\OxyPlotApp\OxyPlotApp.DomainModel\bin\Debug\OxyPlotApp.DomainModel.pdb
+c:\users\ramon\documents\visual studio 2015\Projects\OxyPlotApp\OxyPlotApp.DomainModel\obj\Debug\OxyPlotApp.DomainModel.dll
+c:\users\ramon\documents\visual studio 2015\Projects\OxyPlotApp\OxyPlotApp.DomainModel\obj\Debug\OxyPlotApp.DomainModel.pdb
+c:\users\ramon\documents\visual studio 2015\Projects\OxyPlotApp\OxyPlotApp.DomainModel\bin\Debug\Faker.dll

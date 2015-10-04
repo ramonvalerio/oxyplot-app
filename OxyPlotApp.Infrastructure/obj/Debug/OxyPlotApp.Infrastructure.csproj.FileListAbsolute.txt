@@ -1,0 +1,10 @@
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Infrastructure\bin\Debug\OxyPlotApp.Infrastructure.dll
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Infrastructure\bin\Debug\OxyPlotApp.Infrastructure.pdb
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Infrastructure\obj\Debug\OxyPlotApp.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Infrastructure\obj\Debug\OxyPlotApp.Infrastructure.dll
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Infrastructure\obj\Debug\OxyPlotApp.Infrastructure.pdb
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Infrastructure\bin\Debug\OxyPlotApp.DomainModel.dll
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Infrastructure\bin\Debug\OxyPlotApp.DomainServices.dll
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Infrastructure\bin\Debug\Faker.dll
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Infrastructure\bin\Debug\OxyPlotApp.DomainModel.pdb
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Infrastructure\bin\Debug\OxyPlotApp.DomainServices.pdb

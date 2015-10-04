@@ -1,0 +1,8 @@
+c:\users\ramon\documents\visual studio 2015\Projects\OxyPlotApp\OxyPlotApp.DomainServices\bin\Debug\OxyPlotApp.DomainServices.dll
+c:\users\ramon\documents\visual studio 2015\Projects\OxyPlotApp\OxyPlotApp.DomainServices\bin\Debug\OxyPlotApp.DomainServices.pdb
+c:\users\ramon\documents\visual studio 2015\Projects\OxyPlotApp\OxyPlotApp.DomainServices\obj\Debug\OxyPlotApp.DomainServices.csprojResolveAssemblyReference.cache
+c:\users\ramon\documents\visual studio 2015\Projects\OxyPlotApp\OxyPlotApp.DomainServices\obj\Debug\OxyPlotApp.DomainServices.dll
+c:\users\ramon\documents\visual studio 2015\Projects\OxyPlotApp\OxyPlotApp.DomainServices\obj\Debug\OxyPlotApp.DomainServices.pdb
+c:\users\ramon\documents\visual studio 2015\Projects\OxyPlotApp\OxyPlotApp.DomainServices\bin\Debug\OxyPlotApp.DomainModel.dll
+c:\users\ramon\documents\visual studio 2015\Projects\OxyPlotApp\OxyPlotApp.DomainServices\bin\Debug\OxyPlotApp.DomainModel.pdb
+c:\users\ramon\documents\visual studio 2015\Projects\OxyPlotApp\OxyPlotApp.DomainServices\bin\Debug\Faker.dll

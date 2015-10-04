@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OxyPlotApp.Winforms", "OxyPlotApp.Winforms\OxyPlotApp.Winforms.csproj", "{27C20EBC-34E3-4010-85A8-0D2485A2DA3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OxyPlotApp.DomainServices", "OxyPlotApp.DomainServices\OxyPlotApp.DomainServices.csproj", "{E4896EDA-E145-4261-A6BA-C44F14EABC92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OxyPlotApp.DomainModel", "OxyPlotApp.DomainModel\OxyPlotApp.DomainModel.csproj", "{C0AEDB2B-E1EC-4FFB-9295-CB9047E7ABE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OxyPlotApp.Infrastructure", "OxyPlotApp.Infrastructure\OxyPlotApp.Infrastructure.csproj", "{D04F5713-D66D-4780-8EB3-EF8AA9A829A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27C20EBC-34E3-4010-85A8-0D2485A2DA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C20EBC-34E3-4010-85A8-0D2485A2DA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C20EBC-34E3-4010-85A8-0D2485A2DA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C20EBC-34E3-4010-85A8-0D2485A2DA3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4896EDA-E145-4261-A6BA-C44F14EABC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4896EDA-E145-4261-A6BA-C44F14EABC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4896EDA-E145-4261-A6BA-C44F14EABC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4896EDA-E145-4261-A6BA-C44F14EABC92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0AEDB2B-E1EC-4FFB-9295-CB9047E7ABE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0AEDB2B-E1EC-4FFB-9295-CB9047E7ABE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0AEDB2B-E1EC-4FFB-9295-CB9047E7ABE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0AEDB2B-E1EC-4FFB-9295-CB9047E7ABE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D04F5713-D66D-4780-8EB3-EF8AA9A829A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04F5713-D66D-4780-8EB3-EF8AA9A829A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04F5713-D66D-4780-8EB3-EF8AA9A829A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04F5713-D66D-4780-8EB3-EF8AA9A829A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
