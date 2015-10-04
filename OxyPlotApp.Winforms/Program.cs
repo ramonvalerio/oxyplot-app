@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OxyPlotApp.Infrastructure;
+using System;
 using System.Windows.Forms;
 
 namespace OxyPlotApp.Winforms
@@ -13,7 +14,11 @@ namespace OxyPlotApp.Winforms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormOxyPlot());
+
+            var kernel = new OxyPlotKernel();
+            var formMain = kernel.Get<FormOxyPlot>();
+
+            Application.Run(formMain);
         }
     }
 }

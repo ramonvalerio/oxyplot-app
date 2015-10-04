@@ -93,6 +93,10 @@
       <Project>{e4896eda-e145-4261-a6ba-c44f14eabc92}</Project>
       <Name>OxyPlotApp.DomainServices</Name>
     </ProjectReference>
+    <ProjectReference Include="..\OxyPlotApp.Infrastructure\OxyPlotApp.Infrastructure.csproj">
+      <Project>{d04f5713-d66d-4780-8eb3-ef8aa9a829a0}</Project>
+      <Name>OxyPlotApp.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -32,7 +32,7 @@ namespace OxyPlotApp.DomainModel.Model
             return categorias;
         }
 
-        public IList<Variavel> GetProdutos()
+        public IList<Variavel> GetVariaveis()
         {
             var Apple = new Variavel { Id = Faker.NumberFaker.Number(), Nome = Faker.NameFaker.Name(), Valor = Faker.NumberFaker.Number(), Data = Faker.DateTimeFaker.DateTimeBetweenYears(1994) };
             var Pears = new Variavel { Id = Faker.NumberFaker.Number(), Nome = Faker.NameFaker.Name(), Valor = Faker.NumberFaker.Number(), Data = Faker.DateTimeFaker.DateTimeBetweenYears(2008) };

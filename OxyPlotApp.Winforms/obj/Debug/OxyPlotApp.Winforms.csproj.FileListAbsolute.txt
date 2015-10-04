@@ -17,3 +17,7 @@ c:\users\ramon\documents\visual studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winfo
 c:\users\ramon\documents\visual studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winforms\bin\Debug\OxyPlotApp.DomainModel.dll
 c:\users\ramon\documents\visual studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winforms\bin\Debug\Faker.dll
 c:\users\ramon\documents\visual studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winforms\bin\Debug\OxyPlotApp.DomainModel.pdb
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winforms\bin\Debug\OxyPlotApp.Infrastructure.dll
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winforms\bin\Debug\Ninject.dll
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winforms\bin\Debug\OxyPlotApp.Infrastructure.pdb
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winforms\bin\Debug\Ninject.xml

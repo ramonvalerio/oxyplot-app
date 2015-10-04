@@ -8,3 +8,7 @@ C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Infra
 C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Infrastructure\bin\Debug\Faker.dll
 C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Infrastructure\bin\Debug\OxyPlotApp.DomainModel.pdb
 C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Infrastructure\bin\Debug\OxyPlotApp.DomainServices.pdb
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Infrastructure\bin\Debug\Ninject.dll
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Infrastructure\bin\Debug\Ninject.xml
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Infrastructure\bin\Debug\FakeItEasy.dll
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Infrastructure\bin\Debug\FakeItEasy.xml

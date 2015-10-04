@@ -5,13 +5,18 @@ using OxyPlot.Extensions;
 using OxyPlot.Series;
 using OxyPlot.Axes;
 using OxyPlotApp.DomainModel.Model;
+using OxyPlotApp.DomainModel.Interfaces.Service;
 
 namespace OxyPlotApp.Winforms
 {
     public partial class FormOxyPlot : Form
     {
-        public FormOxyPlot()
+        private readonly ICategoriaService _categoriaService;
+
+        public FormOxyPlot(ICategoriaService categoriaService)
         {
+            _categoriaService = categoriaService;
+
             InitializeComponent();
 
             cbLegenda.CheckedChanged += cbLegenda_CheckedChanged;
@@ -102,7 +107,7 @@ namespace OxyPlotApp.Winforms
             plotView1.Focus();
 
             var categoria = new Categoria();
-            var produtos = categoria.GetProdutos();
+            var produtos = categoria.GetVariaveis();
 
             var categoriaAxis = new CategoryAxis();
             categoriaAxis.ItemsSource = produtos;

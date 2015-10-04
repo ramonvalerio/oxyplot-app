@@ -1,10 +1,17 @@
-﻿using OxyPlotApp.DomainModel.Model;
+﻿using OxyPlotApp.DomainModel.Interfaces.Repository;
+using OxyPlotApp.DomainModel.Model;
 using System.Collections.Generic;
+using System;
 
 namespace OxyPlotApp.Infrastructure.Repository
 {
-    public class CategoriaRepository
+    public class CategoriaRepository : ICategoriaRepository
     {
+        public IList<Categoria> GetCategorias()
+        {
+            throw new NotImplementedException();
+        }
+
         public IList<Variavel> GetProdutos()
         {
             var Apple = new Variavel { Id = Faker.NumberFaker.Number(), Nome = Faker.NameFaker.Name(), Valor = Faker.NumberFaker.Number(), Data = Faker.DateTimeFaker.DateTimeBetweenYears(1994) };

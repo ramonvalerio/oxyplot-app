@@ -6,5 +6,6 @@ namespace OxyPlotApp.DomainModel.Interfaces.Repository
     public interface ICategoriaRepository
     {
         IList<Categoria> GetCategorias();
+        IList<Variavel> GetProdutos();
     }
 }
