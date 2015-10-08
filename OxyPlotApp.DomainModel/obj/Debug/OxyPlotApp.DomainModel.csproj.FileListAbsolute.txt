@@ -3,3 +3,4 @@ C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Domai
 C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.DomainModel\bin\Debug\Faker.dll
 C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.DomainModel\obj\Debug\OxyPlotApp.DomainModel.dll
 C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.DomainModel\obj\Debug\OxyPlotApp.DomainModel.pdb
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.DomainModel\obj\Debug\OxyPlotApp.DomainModel.csprojResolveAssemblyReference.cache

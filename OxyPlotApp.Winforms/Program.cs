@@ -1,4 +1,5 @@
 ﻿using OxyPlotApp.Infrastructure;
+using OxyPlotApp.Winforms.Forms;
 using System;
 using System.Windows.Forms;
 

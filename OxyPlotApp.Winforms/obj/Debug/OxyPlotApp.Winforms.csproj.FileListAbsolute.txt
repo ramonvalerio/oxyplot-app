@@ -1,5 +1,4 @@
 C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winforms\obj\Debug\OxyPlotApp.Winforms.csprojResolveAssemblyReference.cache
-C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winforms\obj\Debug\OxyPlotApp.Winforms.FormOxyPlot.resources
 C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winforms\obj\Debug\OxyPlotApp.Winforms.Properties.Resources.resources
 C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winforms\obj\Debug\OxyPlotApp.Winforms.csproj.GenerateResource.Cache
 C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winforms\bin\Debug\OxyPlotApp.Winforms.exe.config
@@ -21,3 +20,5 @@ C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winfo
 C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winforms\bin\Debug\Ninject.xml
 C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winforms\obj\Debug\OxyPlotApp.Winforms.exe
 C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winforms\obj\Debug\OxyPlotApp.Winforms.pdb
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winforms\obj\Debug\OxyPlotApp.Winforms.Forms.FormOxyPlot.resources
+C:\Users\Ramon\Documents\Visual Studio 2015\Projects\OxyPlotApp\OxyPlotApp.Winforms\obj\Debug\OxyPlotApp.Winforms.Forms.FormConfiguracaoVariavel.resources

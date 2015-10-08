@@ -33,16 +33,25 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="FormOxyPlot.cs">
+    <Compile Include="Forms\FormOxyPlot.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormOxyPlot.Designer.cs">
+    <Compile Include="Forms\FormOxyPlot.Designer.cs">
       <DependentUpon>FormOxyPlot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormConfiguracaoVariavel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormConfiguracaoVariavel.Designer.cs">
+      <DependentUpon>FormConfiguracaoVariavel.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormOxyPlot.resx">
+    <EmbeddedResource Include="Forms\FormOxyPlot.resx">
       <DependentUpon>FormOxyPlot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormConfiguracaoVariavel.resx">
+      <DependentUpon>FormConfiguracaoVariavel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -81,8 +90,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OxyPlotApp.DomainModel\OxyPlotApp.DomainModel.csproj">
